@@ -1,0 +1,58 @@
+
+  :root{
+    --bs-primary: #86162c;
+    /* --bs-secondary: #141414; */
+    
+  }
+  .bg-primary {
+    background-color: #86162c !important;
+  }
+
+  .bg-light {
+    background-color: #f1f1f1 !important;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #86162c;
+    border-color: #86162c;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #141414;
+    border-color: #141414;
+  }
+
+
+  a {
+    color: #86162c;
+    text-decoration: underline;
+  }
+  a:hover {
+    color: #86162c;
+  }
+  
+  .bg-primary {
+    color: #86162c;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #86162c;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(134, 22, 44, 0.25);
+}
+
+.form-control{
+  border: 1px solid  #86162c;
+}
+
+.card :hover {
+  background-color: #86162c;
+  color: #ffffff;
+}
